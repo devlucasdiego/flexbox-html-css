@@ -1,0 +1,64 @@
+/* all */
+body,
+p,
+h1,
+h2,
+input,
+textarea {
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* navbar */
+
+#navbar {
+  background-color: #1c1c1c;
+  color: rgb(255, 255, 255);
+  padding: 0 15px;
+  height: 60px;
+}
+
+#navbar h2,
+#navbar ul,
+#navbar-list li,
+#navbar nav {
+  display: inline-block;
+}
+
+#navbar h2 {
+  margin: 0;
+  line-height: 60px;
+  margin-left: 55px;
+}
+
+#navbar img {
+  height: 40px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+}
+
+#navbar nav {
+  float: right;
+}
+
+#navbar ul {
+  margin-top: 22px;
+}
+
+#navbar li {
+  margin: 0 10px;
+}
+
+#navbar-list li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#navbar-list li a:hover {
+  border-bottom: 1px solid #ffffff;
+}
