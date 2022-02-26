@@ -115,3 +115,58 @@ h2 {
   margin-left: auto;
   line-height: 30px;
 }
+
+/* SKILSS */
+
+#skills-section {
+  margin-top: -100px;
+  background-color: #ffffff;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+}
+
+#skills-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skills-container {
+  flex: 1 1 1;
+  text-align: center;
+  padding: 60px 25px;
+}
+
+.central {
+  border-left: 1px solid rgb(216, 216, 216);
+  border-right: 1px solid rgb(216, 216, 216);
+}
+
+.skills-container h3 {
+  color: rgb(90, 90, 165);
+  font-size: 20px;
+}
+
+.skills-container img {
+  height: 60px;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-top: 1px solid rgb(90, 90, 165);
+  border-left: 1px solid rgb(90, 90, 165);
+  border-bottom: 2px solid rgb(90, 90, 165);
+  border-right: 2px solid rgb(90, 90, 165);
+}
+
+.skills-container .subtitle {
+  font-weight: bold;
+  color: rgb(90, 90, 165);
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.skills-container p {
+  line-height: 25px;
+}
